@@ -13,3 +13,5 @@ export * from "./cnpj-alpha";  // validateCNPJAlpha + formatCNPJAlpha
 
 // Utilitários internos (limpeza de strings, etc).
 export * from "./utils/clean";
+export * from "./masks";
+
