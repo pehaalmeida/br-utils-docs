@@ -1,6 +1,13 @@
-# br-doc-utils 🇧🇷
+# br-utils-docs 🇧🇷
 
-**br-doc-utils** é uma biblioteca utilitária moderna em **TypeScript/JavaScript** para validação, formatação e manipulação de documentos brasileiros, pensada para uso real em produção do backend ao frontend.
+## Status:
+![npm](https://img.shields.io/npm/v/br-utils-docs)
+![license](https://img.shields.io/npm/l/br-utils-docs)
+![downloads](https://img.shields.io/npm/dm/br-utils-docs)
+
+![tests](https://github.com/pehaalmeida/br-utils-docs/actions/workflows/ci.yml/badge.svg)
+
+**br-utils-docs** é uma biblioteca utilitária moderna em **TypeScript/JavaScript** para validação, formatação e manipulação de documentos brasileiros, pensada para uso real em produção do backend ao frontend.
 Ela resolve os casos clássicos **(CPF, CNPJ, CEP, telefone)** e já nasce preparada para o futuro, incluindo **suporte ao novo CNPJ alfanumérico** (padrão **Receita Federal** – 2026).
 Ideal para quem quer **confiabilidade**, e zero dor de cabeça ao lidar com dados brasileiros.
 
@@ -34,13 +41,13 @@ Ideal para quem quer **confiabilidade**, e zero dor de cabeça ao lidar com dado
 ## 📦 Instalação
 
 ```bash
-npm install br-doc-utils
+npm install br-utils-docs
 ```
 
 ou
 
 ```bash
-yarn add br-doc-utils
+yarn add br-utils-docs
 ```
 
 ---
@@ -53,7 +60,7 @@ import {
   validateCNPJ,
   validatePhoneBR,
   validateCEP
-} from "br-doc-utils";
+} from "br-utils-docs";
 ```
 
 ---
