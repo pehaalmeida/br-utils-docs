@@ -1,0 +1,15 @@
+{
+  "name": "br-doc-utils",
+  "version": "0.1.0",
+  "description": "Utilitários e validadores para documentos brasileiros (CPF, CNPJ, CEP, telefone BR, etc.)",
+  "main": "dist/index.cjs",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch"
+  },
+  "keywords": ["brasil", "cpf", "cnpj", "validators", "utils"],
+  "license": "MIT"
+}
