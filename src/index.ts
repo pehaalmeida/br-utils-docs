@@ -1,6 +1,10 @@
 // telefone brasileiro
 export * from "./phone";
 
+// CEP brasileiro
+export * from "./cep";
+
+
 // documentos brasileiros 
 export * from "./cpf";
 export * from "./cnpj";        // validateCNPJ + formatCNPJ (inteligente)
