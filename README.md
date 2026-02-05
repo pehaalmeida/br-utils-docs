@@ -214,9 +214,9 @@ npm run test:watch
 
 ---
 
-## 📄 Licença
+## 👥Ajudar com o projeto
 
-MIT
+Caso tenha sugestões ou melhorias para este projeto, fique à vontade para criar um branch e abrir um Pull Request.
 
 ---
 
