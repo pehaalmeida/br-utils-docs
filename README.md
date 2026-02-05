@@ -220,5 +220,5 @@ MIT
 
 ---
 
-Feito com foco em qualidade, clareza e compatibilidade futura 🇧🇷
-Contribuições são bem-vindas.
+Feito com muito café ☕ e foco por Pedro Augusto.
+Se quiser bater um papo sobre o projeto ou o código, é só chamar!
