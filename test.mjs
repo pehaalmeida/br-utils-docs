@@ -1,5 +1,14 @@
-import { validateCPF, formatCPF } from "./dist/index.js";
+import pkg from "./dist/index.js";
 
-console.log("valid:", validateCPF("529.982.247-25")); // deve dar true
-console.log("fmt:", formatCPF("52998224725"));        // 529.982.247-25
-console.log("invalid:", validateCPF("111.111.111-11"));// false
+const {
+  validatePhoneBR,
+  formatPhoneBR,
+  isMobilePhoneBR,
+  isLandlinePhoneBR
+} = pkg;
+
+console.log("\n=== TELEFONE BR ===");
+console.log("Celular válido:", validatePhoneBR("(11) 91234-5678"), formatPhoneBR("(11) 91234-5678"), isMobilePhoneBR("(11) 91234-5678"));
+console.log("Fixo válido:", validatePhoneBR("(21) 2345-6789"), formatPhoneBR("21 2345 6789"), isLandlinePhoneBR("21 2345 6789"));
+console.log("Com +55:", validatePhoneBR("+55 (11) 91234-5678"), formatPhoneBR("+55 (11) 91234-5678"));
+console.log("Inválido:", validatePhoneBR("00000000000"), formatPhoneBR("00000000000"));
