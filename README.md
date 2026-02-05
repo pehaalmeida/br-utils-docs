@@ -1,19 +1,23 @@
 # br-doc-utils 🇧🇷
 
-Biblioteca utilitária em **TypeScript/JavaScript** para validação, formatação e manipulação de **documentos brasileiros**.
+**br-doc-utils** é uma biblioteca utilitária moderna em **TypeScript/JavaScript** para validação, formatação e manipulação de documentos brasileiros, pensada para uso real em produção do backend ao frontend.
+Ela resolve os casos clássicos **(CPF, CNPJ, CEP, telefone)** e já nasce preparada para o futuro, incluindo **suporte ao novo CNPJ alfanumérico** (padrão **Receita Federal** – 2026).
+Ideal para quem quer **confiabilidade**, e zero dor de cabeça ao lidar com dados brasileiros.
 
-Projetada para ser:
+## 🎯 Principais objetivos
 
-* simples de usar
-* segura
-* preparada para o futuro (incluindo **CNPJ alfanumérico – 2026**)
-* compatível com Node.js e frontend
+* API simples e intuitiva
+* Validações seguras e consistentes
+* Compatibilidade total com Node.js e frontend
+* Preparada para mudanças oficiais (CNPJ alfanumérico)
+* Tipagem forte com TypeScript
+* Código testado e fácil de manter
 
 ---
 
 ## ✨ Funcionalidades
 
-* ✅ CPF (validação e máscara)
+* ✅ CPF (validação e máscara) 
 * ✅ CNPJ
 
   * Numérico (formato atual)
@@ -214,11 +218,11 @@ npm run test:watch
 
 ---
 
-## 📄 Licença
+## 👥Contribuições
 
-MIT
+Caso tenha sugestões ou melhorias para este projeto, fique à vontade para criar um branch e abrir um Pull Request.
 
 ---
 
-Feito com foco em qualidade, clareza e compatibilidade futura 🇧🇷
-Contribuições são bem-vindas.
+Feito com muito café ☕ e foco por Pedro Augusto.
+Se quiser bater um papo sobre o projeto ou o código, é só chamar!
