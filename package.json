@@ -5,11 +5,24 @@
   "main": "dist/index.cjs",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsup",
-    "dev": "tsup --watch"
+    "dev": "tsup --watch",
+    "test": "vitest run",
+    "test:watch": "vitest"
   },
-  "keywords": ["brasil", "cpf", "cnpj", "validators", "utils"],
-  "license": "MIT"
+  "keywords": [
+    "brasil",
+    "cpf",
+    "cnpj",
+    "validators",
+    "utils"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "vitest": "^4.0.18"
+  }
 }
