@@ -4,7 +4,6 @@
 ![npm](https://img.shields.io/npm/v/br-utils-docs)
 ![license](https://img.shields.io/npm/l/br-utils-docs)
 ![downloads](https://img.shields.io/npm/dm/br-utils-docs)
-
 ![tests](https://github.com/pehaalmeida/br-utils-docs/actions/workflows/ci.yml/badge.svg)
 
 **br-utils-docs** é uma biblioteca utilitária moderna em **TypeScript/JavaScript** para validação, formatação e manipulação de documentos brasileiros, pensada para uso real em produção do backend ao frontend.
