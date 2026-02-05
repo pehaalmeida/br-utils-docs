@@ -3,7 +3,7 @@ export * from "./phone";
 
 // CEP brasileiro
 export * from "./cep";
-
+export * from "./cep-lookup";
 
 // documentos brasileiros 
 export * from "./cpf";
