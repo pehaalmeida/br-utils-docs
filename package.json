@@ -1,33 +1,46 @@
 {
   "name": "br-utils-docs",
-  "version": "1.1.0",
-  "description": "Utilitários e validadores para documentos brasileiros (CPF, CNPJ, CNPJ NV 2026, CEP, telefone BR, etc.)",
-  "main": "dist/index.cjs",
-  "module": "dist/index.js",
+  "version": "1.1.1",
+  "description": "Utilitários e validadores para documentos brasileiros (CPF, CNPJ, CNPJ alfanumérico 2026, CEP, telefone BR, etc.)",
+  "license": "MIT",
+
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
+
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    }
+  },
+
   "files": [
     "dist"
   ],
+
   "scripts": {
     "build": "tsup",
     "dev": "tsup --watch",
     "test": "vitest run",
     "test:watch": "vitest"
   },
+
   "keywords": [
     "brasil",
     "cpf",
     "cnpj",
+    "cnpj-alfanumerico",
+    "cep",
+    "telefone",
     "validators",
     "utils"
   ],
-  "license": "MIT",
+
   "devDependencies": {
     "tsup": "^8.5.1",
     "typescript": "^5.9.3",
     "vitest": "^4.0.18"
-  },
-  "dependencies": {
-    "br-utils-docs": "^1.1.0"
   }
 }
