@@ -28,4 +28,26 @@ export function validateCNPJ(input: string): boolean {
 
   const d1 = calcDigit(
     base12,
-    [5, 4, 3, 2, 9, 8,]()
+    [5, 4, 3, 2, 9, 8, 7, 6, 5, 4, 3, 2]
+  );
+  if (d1 !== digits[12]) return false;
+
+  const d2 = calcDigit(
+    [...base12, d1],
+    [6, 5, 4, 3, 2, 9, 8, 7, 6, 5, 4, 3, 2]
+  );
+  if (d2 !== digits[13]) return false;
+
+  return true;
+}
+
+/**
+ * Retorna o CNPJ formatado (xx.xxx.xxx/xxxx-xx).
+ * Não executa validação.
+ */
+export function formatCNPJ(input: string): string | null {
+  const cnpj = onlyDigits(input);
+  if (cnpj.length !== 14) return null;
+
+  return `${cnpj.slice(0, 2)}.${cnpj.slice(2, 5)}.${cnpj.slice(5, 8)}/${cnpj.slice(8, 12)}-${cnpj.slice(12, 14)}`;
+}
